@@ -1,0 +1,72 @@
+
+
+.header {
+	/*background-image: url('../../img/main-pic.png');*/
+	background-image: url('../../img/main-pic.jpg');
+	/*background-size: cover;*/
+	/*background-position: center center;*/
+	background-repeat: no-repeat;
+	/*background-attachment: fixed;*/
+	background-color: #ffffff;
+	border: 0px #000 solid;
+	height: 710px;
+}
+
+.header-filter {
+	background-image: url('../../img/header-filter3.png');
+	height:515px;
+	background-repeat: no-repeat;
+	margin-top: -5px;
+	margin-left: 200px;
+	border: 0px #000 solid;
+	z-index: -500;
+}
+
+.header-info {
+	color: #fafafa;
+	line-height: 1.3;
+}
+
+.header-info h3 {
+	line-height: 1.3;
+}
+
+.header-info a {
+	color: #fafafa;
+}
+
+.header-info a:hover {
+	color: rgb(171, 233, 254);
+	text-decoration: underline;
+}
+
+.header-telephone {
+	font-size: 2.5em;
+}
+
+.header-telephone:hover{
+	text-decoration: none;
+}
+
+.header-block-logo {
+	margin-top: 65px;
+}
+
+.header-block-cart {
+	margin-top: 55px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.header-telephone {font-size: 1em;}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.header-telephone {font-size: 2.5em;}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+.header-telephone {font-size: 2.8em;}
+}

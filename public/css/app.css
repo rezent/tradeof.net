@@ -1,0 +1,40 @@
+.article
+{
+	margin: 15px 0 15px;
+    border: 5px solid transparent;
+    border-left: 1px solid #aaa;
+
+}
+.article__title
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.article__title h2 {
+    font-family: HelveticaNeueCyrThin, sans-serif;
+}
+.article__title h2 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.article__title a {
+	color: #1887ad;
+	text-decoration: none;
+}
+.article__title a:hover {
+	color: #666;
+
+}
+.aticle__text {
+	margin-left: 20px;
+}
+
+.about__title h1, .articles__title h1, .equipment__title h1, .footer__phone, .production__title h1 {
+    font-family: HelveticaNeueCyrThin, sans-serif;
+}
+.equipment__item-button input {
+    border: 0px;
+}
